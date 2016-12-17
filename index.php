@@ -5,4 +5,4 @@
 
 //Chama a janela inicial da aplicação.
 
-require 'view/start.php';
+require 'view/principal.php';

@@ -6,7 +6,7 @@
 
 require_once '../bootstrap.php';
 
-$qtdJogadores = $_POST['qtdJogadores'];
+$qtdJogadores = $_GET['qtdJogadores'];
 
 $jogs = lerArquivoJogadores($qtdJogadores);
 $poss = lerArquivoPosicoes();
@@ -36,6 +36,12 @@ for ($i = 0; $i < 5000; $i++) {
     $populacao->descartar100Piores();
 }
 
-$melhorTime = $populacao->getTimes()[99];
+$time = $populacao->getTimes()[99];
+$dadosRetornar['nota'] = $time->getNota();
 
-include '../view/start.php';
+foreach ($time->getJogadores() as $i => $jogador)
+    $dadosRetornar['jogadores'][] = $jogador['jogador']->getNome();
+
+$dadosRetornar['tempoProcessamento'] = (mktime() - $_SERVER['REQUEST_TIME']);
+
+echo json_encode($dadosRetornar);
