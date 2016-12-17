@@ -28,17 +28,17 @@
             if ( isset($melhorTime) ) {
                 $jogadores = $melhorTime->getJogadores();
                 echo 'NOTA DO TIME: ' . $melhorTime->getNota() . '<br>';
-                echo 'GOLEIRO: ' . $jogadores['jogador'][0]->getNome() . '<br>';
-                echo 'ZAGUEIRO 1: ' . $jogadores['jogador'][1]->getNome() . '<br>';
-                echo 'ZAGUEIRO 2: ' . $jogadores['jogador'][2]->getNome() . '<br>';
-                echo 'LATERAL 1: ' . $jogadores['jogador'][3]->getNome() . '<br>';
-                echo 'LATERAL 2: ' . $jogadores['jogador'][4]->getNome() . '<br>';
-                echo 'MEIA 1: ' . $jogadores['jogador'][5]->getNome() . '<br>';
-                echo 'MEIA 2: ' . $jogadores['jogador'][6]->getNome() . '<br>';
-                echo 'VOLANTE 1: ' . $jogadores['jogador'][7]->getNome() . '<br>';
-                echo 'VOLANTE 2: ' . $jogadores['jogador'][8]->getNome() . '<br>';
-                echo 'ATACANTE 1: ' . $jogadores['jogador'][9]->getNome() . '<br>';
-                echo 'ATACANTE 2: ' . $jogadores['jogador'][10]->getNome() . '<br>';
+                echo 'GOLEIRO: ' . $jogadores[0]['jogador']->getNome() . '<br>';
+                echo 'ZAGUEIRO 1: ' . $jogadores[1]['jogador']->getNome() . '<br>';
+                echo 'ZAGUEIRO 2: ' . $jogadores[2]['jogador']->getNome() . '<br>';
+                echo 'LATERAL 1: ' . $jogadores[3]['jogador']->getNome() . '<br>';
+                echo 'LATERAL 2: ' . $jogadores[4]['jogador']->getNome() . '<br>';
+                echo 'MEIA 1: ' . $jogadores[5]['jogador']->getNome() . '<br>';
+                echo 'MEIA 2: ' . $jogadores[6]['jogador']->getNome() . '<br>';
+                echo 'VOLANTE 1: ' . $jogadores[7]['jogador']->getNome() . '<br>';
+                echo 'VOLANTE 2: ' . $jogadores[8]['jogador']->getNome() . '<br>';
+                echo 'ATACANTE 1: ' . $jogadores[9]['jogador']->getNome() . '<br>';
+                echo 'ATACANTE 2: ' . $jogadores[10]['jogador']->getNome() . '<br>';
             }
         ?>
     </div>
