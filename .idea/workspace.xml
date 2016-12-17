@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64e00c1f-9533-43ce-ad32-3caa8b813c01" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/melhor-time-algoritmo-genetico.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dados/NotasJogadoresCaracteristicas.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dados/caracteristicasPosicoes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/Jogador.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/Populacao.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/Posicao.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/Time.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/calculo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helpers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/functions.php" afterPath="$PROJECT_DIR$/domain/functions.php" />
     </list>
     <ignored path="melhor-time-algoritmo-genetico.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,21 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="calculo.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="calculo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/domain/calculo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/start.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            <state relative-caret-position="59">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -80,11 +54,11 @@
         <option value="$PROJECT_DIR$/util.php" />
         <option value="$PROJECT_DIR$/helpers.php" />
         <option value="$PROJECT_DIR$/domain/Time.php" />
-        <option value="$PROJECT_DIR$/domain/functions.php" />
         <option value="$PROJECT_DIR$/bootstrap.php" />
         <option value="$PROJECT_DIR$/domain/Populacao.php" />
         <option value="$PROJECT_DIR$/view/start.php" />
         <option value="$PROJECT_DIR$/domain/calculo.php" />
+        <option value="$PROJECT_DIR$/domain/functions.php" />
       </list>
     </option>
   </component>
@@ -101,8 +75,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -261,20 +235,22 @@
       <workItem from="1481711452690" duration="24910000" />
       <workItem from="1481887148913" duration="12178000" />
       <workItem from="1481900164466" duration="1374000" />
+      <workItem from="1481940967031" duration="298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105531000" />
+    <option name="totallyTimeSpent" value="105829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16544656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -285,7 +261,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -308,6 +283,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/domain/calculo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/domain/calculo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -347,28 +338,22 @@
             <element signature="e#1055#1185#0#PHP" expanded="false" />
             <element signature="n#formarPopulacaoInicial#0;n#!!top" expanded="false" />
             <element signature="e#1293#1451#0#PHP" expanded="false" />
-            <element signature="n#formarTimeAleatorio#0;n#!!top" expanded="false" />
-            <element signature="e#1565#2014#0#PHP" expanded="false" />
-            <element signature="e#1717#1905#0#PHP" expanded="false" />
-            <element signature="e#2049#2244#0#PHP" expanded="false" />
-            <element signature="n#selecionarTimesCruzar#0;n#!!top" expanded="false" />
-            <element signature="e#2534#2740#0#PHP" expanded="false" />
-            <element signature="e#2746#3137#0#PHP" expanded="false" />
-            <element signature="e#2922#3131#0#PHP" expanded="false" />
-            <element signature="e#2981#3121#0#PHP" expanded="false" />
-            <element signature="e#3167#3324#0#PHP" expanded="false" />
-            <element signature="e#3618#3750#0#PHP" expanded="false" />
-            <element signature="e#3770#3902#0#PHP" expanded="false" />
-            <element signature="e#4368#4527#0#PHP" expanded="false" />
-            <element signature="e#4756#5015#0#PHP" expanded="false" />
-            <element signature="e#5142#5634#0#PHP" expanded="false" />
-            <element signature="e#5236#5628#0#PHP" expanded="false" />
-            <element signature="e#5296#5618#0#PHP" expanded="false" />
-            <element signature="e#5406#5604#0#PHP" expanded="false" />
-            <element signature="e#5662#5815#0#PHP" expanded="false" />
-            <element signature="e#6034#6132#0#PHP" expanded="false" />
-            <element signature="e#6185#6296#0#PHP" expanded="false" />
-            <element signature="n#fazerMutacao#0;n#!!top" expanded="false" />
+            <element signature="e#2043#2238#0#PHP" expanded="false" />
+            <element signature="e#2528#2734#0#PHP" expanded="false" />
+            <element signature="e#2910#3119#0#PHP" expanded="false" />
+            <element signature="e#2969#3109#0#PHP" expanded="false" />
+            <element signature="e#3155#3312#0#PHP" expanded="false" />
+            <element signature="e#3606#3738#0#PHP" expanded="false" />
+            <element signature="e#3758#3890#0#PHP" expanded="false" />
+            <element signature="e#4356#4515#0#PHP" expanded="false" />
+            <element signature="e#4744#5003#0#PHP" expanded="false" />
+            <element signature="e#5130#5622#0#PHP" expanded="false" />
+            <element signature="e#5224#5616#0#PHP" expanded="false" />
+            <element signature="e#5284#5606#0#PHP" expanded="false" />
+            <element signature="e#5394#5592#0#PHP" expanded="false" />
+            <element signature="e#5650#5803#0#PHP" expanded="false" />
+            <element signature="e#6022#6120#0#PHP" expanded="false" />
+            <element signature="e#6173#6284#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -396,28 +381,22 @@
             <element signature="e#1055#1185#0#PHP" expanded="false" />
             <element signature="n#formarPopulacaoInicial#0;n#!!top" expanded="false" />
             <element signature="e#1293#1451#0#PHP" expanded="false" />
-            <element signature="n#formarTimeAleatorio#0;n#!!top" expanded="false" />
-            <element signature="e#1565#2014#0#PHP" expanded="false" />
-            <element signature="e#1717#1905#0#PHP" expanded="false" />
-            <element signature="e#2049#2244#0#PHP" expanded="false" />
-            <element signature="n#selecionarTimesCruzar#0;n#!!top" expanded="false" />
-            <element signature="e#2534#2740#0#PHP" expanded="false" />
-            <element signature="e#2746#3137#0#PHP" expanded="false" />
-            <element signature="e#2922#3131#0#PHP" expanded="false" />
-            <element signature="e#2981#3121#0#PHP" expanded="false" />
-            <element signature="e#3167#3324#0#PHP" expanded="false" />
-            <element signature="e#3618#3750#0#PHP" expanded="false" />
-            <element signature="e#3770#3902#0#PHP" expanded="false" />
-            <element signature="e#4368#4527#0#PHP" expanded="false" />
-            <element signature="e#4756#5015#0#PHP" expanded="false" />
-            <element signature="e#5142#5634#0#PHP" expanded="false" />
-            <element signature="e#5236#5628#0#PHP" expanded="false" />
-            <element signature="e#5296#5618#0#PHP" expanded="false" />
-            <element signature="e#5406#5604#0#PHP" expanded="false" />
-            <element signature="e#5662#5815#0#PHP" expanded="false" />
-            <element signature="e#6034#6132#0#PHP" expanded="false" />
-            <element signature="e#6185#6296#0#PHP" expanded="false" />
-            <element signature="n#fazerMutacao#0;n#!!top" expanded="false" />
+            <element signature="e#2043#2238#0#PHP" expanded="false" />
+            <element signature="e#2528#2734#0#PHP" expanded="false" />
+            <element signature="e#2910#3119#0#PHP" expanded="false" />
+            <element signature="e#2969#3109#0#PHP" expanded="false" />
+            <element signature="e#3155#3312#0#PHP" expanded="false" />
+            <element signature="e#3606#3738#0#PHP" expanded="false" />
+            <element signature="e#3758#3890#0#PHP" expanded="false" />
+            <element signature="e#4356#4515#0#PHP" expanded="false" />
+            <element signature="e#4744#5003#0#PHP" expanded="false" />
+            <element signature="e#5130#5622#0#PHP" expanded="false" />
+            <element signature="e#5224#5616#0#PHP" expanded="false" />
+            <element signature="e#5284#5606#0#PHP" expanded="false" />
+            <element signature="e#5394#5592#0#PHP" expanded="false" />
+            <element signature="e#5650#5803#0#PHP" expanded="false" />
+            <element signature="e#6022#6120#0#PHP" expanded="false" />
+            <element signature="e#6173#6284#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -555,47 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="138" column="29" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
-          <folding>
-            <element signature="e#79#167#0#PHP" expanded="false" />
-            <element signature="n#lerArquivoJogadores#0;n#!!top" expanded="false" />
-            <element signature="e#324#570#0#PHP" expanded="false" />
-            <element signature="e#394#564#0#PHP" expanded="false" />
-            <element signature="e#604#663#0#PHP" expanded="false" />
-            <element signature="n#lerArquivoPosicoes#0;n#!!top" expanded="false" />
-            <element signature="e#791#1029#0#PHP" expanded="false" />
-            <element signature="e#1055#1185#0#PHP" expanded="false" />
-            <element signature="n#formarPopulacaoInicial#0;n#!!top" expanded="false" />
-            <element signature="e#1293#1451#0#PHP" expanded="false" />
-            <element signature="n#formarTimeAleatorio#0;n#!!top" expanded="false" />
-            <element signature="e#1565#2014#0#PHP" expanded="false" />
-            <element signature="e#1717#1905#0#PHP" expanded="false" />
-            <element signature="e#2049#2244#0#PHP" expanded="false" />
-            <element signature="n#selecionarTimesCruzar#0;n#!!top" expanded="false" />
-            <element signature="e#2534#2740#0#PHP" expanded="false" />
-            <element signature="e#2746#3137#0#PHP" expanded="false" />
-            <element signature="e#2922#3131#0#PHP" expanded="false" />
-            <element signature="e#2981#3121#0#PHP" expanded="false" />
-            <element signature="e#3167#3324#0#PHP" expanded="false" />
-            <element signature="e#3618#3750#0#PHP" expanded="false" />
-            <element signature="e#3770#3902#0#PHP" expanded="false" />
-            <element signature="e#4368#4527#0#PHP" expanded="false" />
-            <element signature="e#4756#5015#0#PHP" expanded="false" />
-            <element signature="e#5142#5634#0#PHP" expanded="false" />
-            <element signature="e#5236#5628#0#PHP" expanded="false" />
-            <element signature="e#5296#5618#0#PHP" expanded="false" />
-            <element signature="e#5406#5604#0#PHP" expanded="false" />
-            <element signature="e#5662#5815#0#PHP" expanded="false" />
-            <element signature="e#6034#6132#0#PHP" expanded="false" />
-            <element signature="e#6185#6296#0#PHP" expanded="false" />
-            <element signature="n#fazerMutacao#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/Populacao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -619,18 +557,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/calculo.php">
+    <entry file="file://$PROJECT_DIR$/view/start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="165">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/start.php">
+    <entry file="file://$PROJECT_DIR$/domain/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        <state relative-caret-position="399">
+          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+          <folding>
+            <element signature="e#79#167#0#PHP" expanded="false" />
+            <element signature="n#lerArquivoJogadores#0;n#!!top" expanded="false" />
+            <element signature="e#324#570#0#PHP" expanded="false" />
+            <element signature="e#394#564#0#PHP" expanded="false" />
+            <element signature="e#604#663#0#PHP" expanded="false" />
+            <element signature="n#lerArquivoPosicoes#0;n#!!top" expanded="false" />
+            <element signature="e#791#1029#0#PHP" expanded="false" />
+            <element signature="e#1055#1185#0#PHP" expanded="false" />
+            <element signature="n#formarPopulacaoInicial#0;n#!!top" expanded="false" />
+            <element signature="e#1293#1451#0#PHP" expanded="false" />
+            <element signature="e#2043#2238#0#PHP" expanded="false" />
+            <element signature="e#2528#2734#0#PHP" expanded="false" />
+            <element signature="e#2910#3119#0#PHP" expanded="false" />
+            <element signature="e#2969#3109#0#PHP" expanded="false" />
+            <element signature="e#3155#3312#0#PHP" expanded="false" />
+            <element signature="e#3606#3738#0#PHP" expanded="false" />
+            <element signature="e#3758#3890#0#PHP" expanded="false" />
+            <element signature="e#4356#4515#0#PHP" expanded="false" />
+            <element signature="e#4744#5003#0#PHP" expanded="false" />
+            <element signature="e#5130#5622#0#PHP" expanded="false" />
+            <element signature="e#5224#5616#0#PHP" expanded="false" />
+            <element signature="e#5284#5606#0#PHP" expanded="false" />
+            <element signature="e#5394#5592#0#PHP" expanded="false" />
+            <element signature="e#5650#5803#0#PHP" expanded="false" />
+            <element signature="e#6022#6120#0#PHP" expanded="false" />
+            <element signature="e#6173#6284#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/calculo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>

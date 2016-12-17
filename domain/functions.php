@@ -63,7 +63,7 @@ function formarTimeAleatorio(array $jogadores, Time $time)
         //escolhe um jogador que ainda não foi convocado.
         $jogadorRandom = -1;
         while ( true ) {
-            $jogadorRandom = ''.random_int(0, count($jogadores)-1);
+            $jogadorRandom = ''.rand(0, count($jogadores)-1);
             if ( array_search($jogadorRandom, $convocados) === false )
                 break;
         }
@@ -98,7 +98,7 @@ function selecionarTimesCruzar(Populacao $populacao)
     }
 
     for ($i = 0; $i < 2; $i++) { // seleciona dois times
-        $trechoSorteado = random_int(0, $somaNotas);
+        $trechoSorteado = rand(0, $somaNotas);
 
         //Procura o time que se enquadra no trecho sorteado.
         foreach ($trechos as $index => $valorTrecho) {
@@ -218,15 +218,15 @@ function jogadores4Time(array $jogadores, array $posicoes)
  */
 function fazerMutacao(array $jogadores)
 {
-    $vaiMutar = random_int(1, 100);
+    $vaiMutar = rand(1, 100);
 
     if ( $vaiMutar > 20 )
         return $jogadores;
 
-    $pos1 = random_int(0, 10);
-    $pos2 = random_int(0, 10);
+    $pos1 = rand(0, 10);
+    $pos2 = rand(0, 10);
     while ($pos1 == $pos2)
-        $pos2 = random_int(0, 10);
+        $pos2 = rand(0, 10);
 
     $jogPos1 = $jogadores[$pos1];
     $jogPos2 = $jogadores[$pos2];
