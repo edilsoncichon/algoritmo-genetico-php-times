@@ -25,12 +25,21 @@
 
     <div class="resultado">
         <?php
-
-            for ($i=0; $i<100000000;$i++)
-                continue;
-
-            if ( isset($jogs) )
-                var_dump($jogs);
+            if ( isset($melhorTime) ) {
+                $jogadores = $melhorTime->getJogadores();
+                echo 'NOTA DO TIME: ' . $melhorTime->getNota() . '<br>';
+                echo 'GOLEIRO: ' . $jogadores[0] . '<br>';
+                echo 'ZAGUEIRO 1: ' . $jogadores[1] . '<br>';
+                echo 'ZAGUEIRO 2: ' . $jogadores[2] . '<br>';
+                echo 'LATERAL 1: ' . $jogadores[3] . '<br>';
+                echo 'LATERAL 2: ' . $jogadores[4] . '<br>';
+                echo 'MEIA 1: ' . $jogadores[5] . '<br>';
+                echo 'MEIA 2: ' . $jogadores[6] . '<br>';
+                echo 'VOLANTE 1: ' . $jogadores[7] . '<br>';
+                echo 'VOLANTE 2: ' . $jogadores[8] . '<br>';
+                echo 'ATACANTE 1: ' . $jogadores[9] . '<br>';
+                echo 'ATACANTE 2: ' . $jogadores[10] . '<br>';
+            }
         ?>
     </div>
 </div>

@@ -34,17 +34,8 @@ for ($i = 0; $i < 5000; $i++) {
         $populacao->setTime($time);
     $populacao->ordenarPorNota(true);
     $populacao->descartar100Piores();
-
-
-//    if ( $i > 90)
-//        dd([
-//            'MELHOR TIME' => $populacao->getTimes()[99],
-//        ]);
 }
 
-dd([
-    'MELHOR TIME' => $populacao->getTimes()[99],
-]);
+$melhorTime = $populacao->getTimes()[99];
 
-
-//include '../view/start.php';
+include '../view/start.php';
