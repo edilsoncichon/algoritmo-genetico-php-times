@@ -28,17 +28,17 @@
             if ( isset($melhorTime) ) {
                 $jogadores = $melhorTime->getJogadores();
                 echo 'NOTA DO TIME: ' . $melhorTime->getNota() . '<br>';
-                echo 'GOLEIRO: ' . $jogadores[0] . '<br>';
-                echo 'ZAGUEIRO 1: ' . $jogadores[1] . '<br>';
-                echo 'ZAGUEIRO 2: ' . $jogadores[2] . '<br>';
-                echo 'LATERAL 1: ' . $jogadores[3] . '<br>';
-                echo 'LATERAL 2: ' . $jogadores[4] . '<br>';
-                echo 'MEIA 1: ' . $jogadores[5] . '<br>';
-                echo 'MEIA 2: ' . $jogadores[6] . '<br>';
-                echo 'VOLANTE 1: ' . $jogadores[7] . '<br>';
-                echo 'VOLANTE 2: ' . $jogadores[8] . '<br>';
-                echo 'ATACANTE 1: ' . $jogadores[9] . '<br>';
-                echo 'ATACANTE 2: ' . $jogadores[10] . '<br>';
+                echo 'GOLEIRO: ' . $jogadores[0]->getNome() . '<br>';
+                echo 'ZAGUEIRO 1: ' . $jogadores[1]->getNome() . '<br>';
+                echo 'ZAGUEIRO 2: ' . $jogadores[2]->getNome() . '<br>';
+                echo 'LATERAL 1: ' . $jogadores[3]->getNome() . '<br>';
+                echo 'LATERAL 2: ' . $jogadores[4]->getNome() . '<br>';
+                echo 'MEIA 1: ' . $jogadores[5]->getNome() . '<br>';
+                echo 'MEIA 2: ' . $jogadores[6]->getNome() . '<br>';
+                echo 'VOLANTE 1: ' . $jogadores[7]->getNome() . '<br>';
+                echo 'VOLANTE 2: ' . $jogadores[8]->getNome() . '<br>';
+                echo 'ATACANTE 1: ' . $jogadores[9]->getNome() . '<br>';
+                echo 'ATACANTE 2: ' . $jogadores[10]->getNome() . '<br>';
             }
         ?>
     </div>

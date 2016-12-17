@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64e00c1f-9533-43ce-ad32-3caa8b813c01" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/calculo.php" afterPath="$PROJECT_DIR$/domain/calculo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/start.php" afterPath="$PROJECT_DIR$/view/start.php" />
     </list>
     <ignored path="melhor-time-algoritmo-genetico.iws" />
@@ -50,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/view/start.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="680">
-              <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -270,12 +268,12 @@
       <workItem from="1481711452690" duration="24910000" />
       <workItem from="1481887148913" duration="12178000" />
       <workItem from="1481900164466" duration="1374000" />
-      <workItem from="1481940967031" duration="2499000" />
+      <workItem from="1481940967031" duration="2692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108030000" />
+    <option name="totallyTimeSpent" value="108223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -655,7 +653,7 @@
     <entry file="file://$PROJECT_DIR$/view/start.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
-          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
           <folding />
         </state>
       </provider>
