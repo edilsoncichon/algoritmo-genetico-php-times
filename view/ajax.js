@@ -37,15 +37,13 @@ window.onload = function () {
 		} 
 		else {
 			doc.getElementById('nota').innerHTML = jsonResposta.nota;
-			doc.getElementById('tempo').innerHTML = jsonResposta.tempoProcessamento + ' segundos';
-
 			//FORMAÇÃO DO JOGADORES.
 			var jogs = jsonResposta.jogadores;
 			doc.getElementById('goleiro').innerHTML = jogs[0];
 			doc.getElementById('zagueiro').innerHTML = jogs[1];
 			doc.getElementById('zagueiro2').innerHTML = jogs[2];
 			doc.getElementById('lateral').innerHTML = jogs[3];
-			doc.getElementById('lateral').innerHTML = jogs[4];
+			doc.getElementById('lateral2').innerHTML = jogs[4];
 			doc.getElementById('volante').innerHTML = jogs[5];
 			doc.getElementById('volante2').innerHTML = jogs[6];
 			doc.getElementById('meia').innerHTML = jogs[7];
@@ -53,6 +51,7 @@ window.onload = function () {
 			doc.getElementById('atacante').innerHTML = jogs[9];
 			doc.getElementById('atacante2').innerHTML = jogs[10];
 
+			doc.getElementById('tempo').innerHTML = jsonResposta.tempoProcessamento + ' segundos';
 			doc.getElementById("start").removeAttribute("disabled");
 			doc.getElementById("resultado").removeAttribute('style');
 		}
